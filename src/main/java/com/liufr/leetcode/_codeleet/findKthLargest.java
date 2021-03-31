@@ -7,11 +7,11 @@ public class findKthLargest {
     }
 
     public static void main(String[] args) {
-        int targetNumb = 9;
-//        int[] nums = {-1, 3, 3, 7, 9, 10, 10, 14, 14, 56, 8, 0, 49, 2, 3, 6};
-        int[] nums = {-1, 2, 0};
+        int targetNumb = 2;
+       int[] nums = {-1, 3, 3, 7, 9, 10, 10, 14, 14, 56, 8, 0, 49, 2, 3, 6};
+        // int[] nums = {-1, 2, 0};
 
-        fastFind(nums, 0, nums.length - 1, 0);
+        fastFind(nums, 0, nums.length - 1, targetNumb);
 
 //        for (int x=0; x<nums.length; x++) {
 //            System.out.println(nums[x]);
